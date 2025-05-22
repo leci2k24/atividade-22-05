@@ -1,0 +1,19 @@
+.lista-tarefas {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .lista-tarefas li {
+    position: relative; 
+    padding-left: 25px; 
+    margin-bottom: 10px; 
+  }
+  
+  .lista-tarefas li::before {
+    content: "✓"; 
+    color: green; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+  }
+  

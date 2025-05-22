@@ -1,0 +1,20 @@
+.tabela-notas {
+    border-collapse: collapse; 
+    width: 100%; 
+  }
+  
+  .tabela-notas th,
+  .tabela-notas td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  .tabela-notas thead {
+    background-color: #f0f0f0; 
+  }
+  
+  .tabela-notas tr:hover {
+    background-color: #e0f7fa; 
+  }
+  
